@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: blue;
+}
+
+input[type="text"], [type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    width: 300px; 
+    height: 150px; 
+}
+
+th, td {
+    border: 1px solid ;
+    box-sizing: border-box;
+}
+
+.aliging_left {
+    text-align: left;
+}
+
+.aliging_right {
+    text-align: right;
+}
+
+.aliging_center {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #d9da3e ;
+    padding: 1rem;
+    border: 1px dotted black;
+    height: 30rem;
+}
+
+.nav_item {
+    min-width: 6rem;
+    padding: 5px;
+    margin-top: 0.5rem;
+    background: white;
+    border-right: 1.4rem solid black    ;
+}
+
+.main_body {
+    color: #a4667a;
+}
+
+.wrapper {
+    display: flex;
+    column-gap: 1rem;
+}

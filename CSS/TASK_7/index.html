@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <table>
+                <tr>
+                    <th>Name : </th>
+                    <th><input type="text" placeholder="your name" required></th>
+                </tr>
+                <tr>
+                    <th>Email : </th>
+                    <th><input type="email" placeholder="your email" required></th>
+                </tr>
+                <tr>
+                    <th>Password : </th>
+                    <th><input type="password" required></th>
+                </tr>
+                <tr>
+                    <th>Phone Number : </th>
+                    <th><input type="number" required></th>
+                </tr>
+                <tr>
+                    <th>Gender : </th>
+                    <th>
+                        Male:<input type="radio" value="male" name="Gender" id="male" > |
+                        Female : <input type="radio" value="female" name="Gender" id="female" > |
+                        Other :<input type="radio" value="other" name="Gender" id="other" > 
+                        
+                    </th>
+                </tr>
+                <tr>
+                    <th>Language :</th>
+                    <th>
+                        <select >
+                            <option>Select Language</option>
+                            <option>Hindi</option>
+                            <option>English</option>
+                            <option>Telgu</option>
+                            <option>Tamil</option>
+                            <option>Kannada</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Zipcode : </th>
+                    <th><input type="number" ></th>
+                </tr>
+                <tr>
+                    <th>About : </th>
+                    <th><textarea placeholder="Write about yourself . . ."></textarea></th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <button type="submit">Register</button>
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(173, 217, 230);
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+.navbar a {
+    
+    display: block;
+    color: rgb(29, 42, 213) !important;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(254, 165, 0);
+    color: white !important;
+}

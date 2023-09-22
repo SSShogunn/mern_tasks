@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to bottom, #df87b7, #f4e4b1);
+  }
+  form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  select,
+  textarea {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  input[type="submit"] {
+    background-color: white;
+    color: #752041;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
